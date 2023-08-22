@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>US$ -> BRL Converter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Currency Converter</h1>
+        </header>
+        <main>
+            <p>Current Exchange Rate: <span id="exchangeRate">Loading...</span></p>
+            <button id="refreshButton">Refresh Exchange Rate</button>
+        </main>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
